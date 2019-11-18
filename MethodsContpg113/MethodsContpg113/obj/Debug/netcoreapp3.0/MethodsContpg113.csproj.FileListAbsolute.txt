@@ -1,0 +1,11 @@
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/obj/Debug/netcoreapp3.0/MethodsContpg113.csprojAssemblyReference.cache
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/obj/Debug/netcoreapp3.0/MethodsContpg113.AssemblyInfoInputs.cache
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/obj/Debug/netcoreapp3.0/MethodsContpg113.AssemblyInfo.cs
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/bin/Debug/netcoreapp3.0/MethodsContpg113
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/bin/Debug/netcoreapp3.0/MethodsContpg113.deps.json
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/bin/Debug/netcoreapp3.0/MethodsContpg113.runtimeconfig.json
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/bin/Debug/netcoreapp3.0/MethodsContpg113.runtimeconfig.dev.json
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/bin/Debug/netcoreapp3.0/MethodsContpg113.dll
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/bin/Debug/netcoreapp3.0/MethodsContpg113.pdb
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/obj/Debug/netcoreapp3.0/MethodsContpg113.dll
+/Applications/GitHub/Basic C# Projects/MethodsContpg113/MethodsContpg113/obj/Debug/netcoreapp3.0/MethodsContpg113.pdb
