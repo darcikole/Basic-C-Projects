@@ -6,11 +6,11 @@ namespace MethodsContpg113
     {
         static void Main(string[] args)
         {
-            int x = 5;
-            int y = 8;
+            //int x = 5;
+            //int y = 8;
 
             MathClass m = new MathClass();
-            m.Math(x, y);
+            m.Math(x: 5, y: 8);
 
         }
 
