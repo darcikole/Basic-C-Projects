@@ -15,13 +15,8 @@ namespace MethodsDrill114
             int result2 = Convert.ToInt32(op.OpX(y: 10));
             Console.WriteLine("{0}", result2);
 
-            //string result = op.OpX(z: "14");
             int result3 = Convert.ToInt32(op.OpX(z: "14"));
             Console.WriteLine("{0}", result3);
-
-
-
-
         }
     }
 }
