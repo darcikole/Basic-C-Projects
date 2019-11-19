@@ -6,7 +6,22 @@ namespace MethodsDrill114
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
+            MathOp op = new MathOp();
+
+            int result1 = op.OpX(x: 12);
+            Console.WriteLine("{0}", result1);
+
+            int result2 = Convert.ToInt32(op.OpX(y: 10));
+            Console.WriteLine("{0}", result2);
+
+            //string result = op.OpX(z: "14");
+            int result3 = Convert.ToInt32(op.OpX(z: "14"));
+            Console.WriteLine("{0}", result3);
+
+
+
+
         }
     }
 }
