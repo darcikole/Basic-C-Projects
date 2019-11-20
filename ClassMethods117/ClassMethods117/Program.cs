@@ -24,6 +24,8 @@ namespace ClassMethods117
             OutOver outOver2 = new OutOver();
             outOver2.Op2(radius, out double area);
 
+            Console.WriteLine("\r\n");
+
             StaticClass.StaticProp = 19;
             Console.WriteLine(StaticClass.StaticProp);
         }
