@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inheritance120
+namespace Inheritance120and124
 {
     class Program
     {

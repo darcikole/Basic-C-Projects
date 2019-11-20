@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Inheritance120
+namespace Inheritance120and124
 {
     public class Person
     {
