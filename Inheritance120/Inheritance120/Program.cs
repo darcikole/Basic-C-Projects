@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Inheritance120and124
+namespace Inheritance
 {
     class Program
     {
@@ -11,6 +11,7 @@ namespace Inheritance120and124
             employee.FirstName = "Sample";
             employee.LastName = "Student";
             employee.SayName();
+            employee.Quit();
         }
     }
 }

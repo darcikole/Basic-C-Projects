@@ -1,8 +1,10 @@
 ﻿using System;
-namespace Inheritance120and124
+using InheritanceDrills;
+
+namespace Inheritance
 {
     // Inherited from Person class
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         // Employee ID
         public int Id { get; set; }
@@ -11,6 +13,11 @@ namespace Inheritance120and124
         public new void SayName()
         {
             base.SayName();
+        }
+
+        public void Quit()
+        {
+            throw new NotImplementedException();
         }
     }
 }
