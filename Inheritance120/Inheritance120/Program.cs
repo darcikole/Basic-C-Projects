@@ -1,4 +1,5 @@
 ﻿using System;
+using InheritanceDrills;
 
 namespace Inheritance
 {
@@ -11,7 +12,10 @@ namespace Inheritance
             employee.FirstName = "Sample";
             employee.LastName = "Student";
             employee.SayName();
-            employee.Quit();
+
+
+            IQuittable quit1 = new Employee();
+            quit1.Quit();
         }
     }
 }

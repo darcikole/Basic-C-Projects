@@ -17,7 +17,7 @@ namespace Inheritance
 
         public void Quit()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quit Method Called");
         }
     }
 }
