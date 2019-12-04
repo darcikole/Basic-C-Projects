@@ -12,6 +12,29 @@ namespace Inheritance
         {
 
             Employee<string> employee = new Employee<string>();
+            employee.Things = new List<string>
+            {
+                "Sales Associate",
+                "Supervisor",
+                "Manager"
+            };
+            Employee<int> employee3 = new Employee<int>();
+            employee3.Things = new List<int>
+            {
+                40000,
+                50000,
+                60000
+            };
+
+           foreach (var item in employee.Things)
+            {
+                Console.WriteLine(item);
+            }
+
+            foreach (var item in employee3.Things)
+            {
+                Console.WriteLine(item);
+            }
 
 
             //instantiating Employee class & method
@@ -33,8 +56,8 @@ namespace Inheritance
             //employee.SayName();
 
             // creating IQuittable object
-            IQuittable quit1 = new Employee();
-            quit1.Quit();
+            //IQuittable quit1 = new Employee();
+            //quit1.Quit();
         }
     }
 }

@@ -10,6 +10,7 @@ namespace Inheritance
         // Employee ID
         public int ID { get; set; }
 
+        // Generic List property
         public List<T> Things { get; set; }
 
 
