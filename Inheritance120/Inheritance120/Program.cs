@@ -37,6 +37,8 @@ namespace Inheritance
             //     Console.WriteLine(item);
             // }
 
+
+            // Instantiated list and added employee objects
             List<Employee> employees = new List<Employee>
             {
                 new Employee
@@ -101,6 +103,7 @@ namespace Inheritance
                     ID = 10
                 }
             };
+            // foreach loop to find employees with the first name Joe
             foreach (Employee employee in employees)
             {
                if (employee.FirstName == "Joe")
@@ -111,6 +114,7 @@ namespace Inheritance
 
             Console.WriteLine("\r\n");
 
+            // Lambda expression to find all employees named Joe in the list
             List<Employee> JoeList = employees.FindAll(x => x.FirstName == "Joe").ToList();
             foreach (var value in JoeList)
             {
@@ -118,7 +122,7 @@ namespace Inheritance
             }
 
             Console.WriteLine("\r\n");
-
+            // Lambda expression to find all employees with an ID over 5
             List<Employee> newList = employees.FindAll(x => x.ID > 5).ToList();
             foreach (var value in newList)
             {
