@@ -104,7 +104,7 @@ namespace Inheritance
                 }
             };
             // foreach loop to find employees with the first name Joe
-            foreach (Employee employee in employees)
+            foreach (var employee in employees)// ** using "var" keyword in foreach loops **
             {
                if (employee.FirstName == "Joe")
                 {

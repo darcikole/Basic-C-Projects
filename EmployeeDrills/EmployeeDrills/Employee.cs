@@ -9,6 +9,22 @@ namespace Inheritance
     {
         // Employee ID
         public int ID { get; set; }
+        public DateTime HireDate { get; set; }
+
+        // Chained the two Employee constructors together 
+        public Employee(string lastName, string firstName, int Id) : this(lastName, firstName, Id, DateTime.Today)
+        {
+
+        }
+
+        public Employee(string lastName, string firstName, int Id, DateTime hireDate)
+        {
+            LastName = lastName;
+            FirstName = firstName;
+            ID = Id;
+            HireDate = hireDate;
+
+        }
 
         // Generic List property
         //public List<T> Things { get; set; }
